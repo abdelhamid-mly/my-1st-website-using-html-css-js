@@ -1,0 +1,195 @@
+/* Styles généraux */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Barre de navigation */
+nav {
+    border: solid 1px;
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* Section Générale */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Section Développement Digital */
+.dev {
+    background-color: aquamarine;
+}
+
+#paracoding {
+    width: 60%;
+}
+
+#imgcoding {
+    width: 30%;
+}
+
+/* Section Cybersécurité */
+.cyber {
+    background-color: lightcoral;
+}
+
+#paracyber {
+    width: 60%;
+}
+
+#imgcyber {
+    width: 30%;
+}
+
+/* Section Intelligence Artificielle */
+.ia {
+    background-color: lightgoldenrodyellow;
+}
+
+#paraia {
+    width: 60%;
+}
+
+#imgia {
+    width: 30%;
+}
+.ingenierie {
+    background-image: url('siteagdal2.jpg');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.ingenierie .d1 {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.ingenierie h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.ingenierie p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ingenierie ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingenierie ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.btn1 {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.contact {
+    background-color: #f8f9fa;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact textarea {
+    height: 150px;
+    resize: none;
+}
+
+.btn1 {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.btn1:hover {
+    background-color: darkblue;
+}
+footer{color: white;
+background-color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
