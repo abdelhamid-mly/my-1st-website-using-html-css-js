@@ -1,12 +1,12 @@
-/* Styles généraux */
+/* --- Styles généraux --- */
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
 }
 
-/* Barre de navigation */
+/* --- Barre de navigation --- */
 nav {
     border: solid 1px;
     width: 100%;
@@ -15,32 +15,33 @@ nav {
     display: flex;
     align-items: center;
     padding: 0 20px;
-   
 }
-.classe1
-{ font-size: small;}
+
+#classe1 {
+    font-size: small;
+}
 
 nav img {
     width: 200px;
 }
 
-ul {
+nav ul {
     list-style: none;
     margin-left: auto;
     display: flex;
 }
 
-li {
+nav li {
     margin: 0 15px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-/* Section Générale */
+/* --- Section générale --- */
 section {
     display: flex;
     align-items: center;
@@ -50,149 +51,146 @@ section {
     border-radius: 10px;
 }
 
-/* Section Développement Digital */
-.dev {
-    background-color: aquamarine;
-}
-
-#paracoding {
-    width: 60%;
-}
-
-#imgcoding {
-    width: 30%;
-}
-
-/* Section Cybersécurité */
-.cyber {
-    background-color: lightcoral;
-}
-
-#paracyber {
-    width: 60%;
-}
-
-#imgcyber {
-    width: 30%;
-}
-
-/* Section Intelligence Artificielle */
-.ia {
-    background-color: lightgoldenrodyellow;
-}
-
-#paraia {
-    width: 60%;
-}
-
-#imgia {
-    width: 30%;
-}
+/* --- Section Ingénierie --- */
 .ingenierie {
     background-image: url('siteagdal2.jpg');
     background-size: cover;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.ingenierie .contenu {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .ingenierie .d1 {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 15px;
+    max-width: 800px;
+    width: 90%;
 }
 
 .ingenierie h1 {
     font-size: 40px;
     margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .ingenierie p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 .ingenierie ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .ingenierie ul li {
     font-size: 18px;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
-.btn1 {
-    background-color: blue;
+.ingenierie a {
+    background-color: #006699;
     color: white;
-    padding: 15px;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
+    padding: 12px 25px;
     font-size: 18px;
-}
-.contact {
-    background-color: #f8f9fa;
-    padding: 40px;
-    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
 }
 
-.contact h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
+.ingenierie a:hover {
+    background-color: #004466;
+}
+
+/* --- Section Contact --- */
+.contact {
+    background-color: #e6f2ff;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
 }
 
 .contact form {
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-}
-
-.contact label {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 10px;
-    text-align: left;
+    gap: 15px;
 }
 
 .contact input,
 .contact textarea {
-    width: 100%;
     padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
-.contact textarea {
-    height: 150px;
-    resize: none;
-}
-
-.btn1 {
-    background-color: blue;
+.contact button {
+    background-color: #006699;
     color: white;
-    padding: 12px;
-    border-radius: 5px;
+    padding: 10px 25px;
     border: none;
+    border-radius: 20px;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 18px;
-    margin-top: 15px;
 }
 
-.btn1:hover {
-    background-color: darkblue;
+.contact button:hover {
+    background-color: #004466;
 }
-footer{color: white;
-background-color: black;
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+/* --- Footer --- */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+footer a:hover {
+    color: #ff9900;
+}
+
+footer a:hover .footer-icon {
+    filter: brightness(1.2);
+}

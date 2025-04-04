@@ -4,89 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les Filières d'Info EMSI</title>
+    <!-- Lien vers le fichier CSS externe -->
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    
-</body>
-</html>
-<body>
-    <nav> 
-        <img src="logo-emsi-entry.png" width="400px" id="img1">
-        <ul id="classe1">
-            <li><a href="">Accueil</a></li>
-            <li><a href="">Qui sommes nous</a></li>
-            <li><a href="">Nos services</a></li>
-            <li><a href="">Nous Contacter</a></li>
+    <!-- ************ Barre de navigation ************ -->
+    <nav>
+        <!-- Logo de l'école -->
+        <img src="logo-emsi-entry.png" width="200px" id="img1" alt="Logo EMSI">
+        
+        <!-- Menu de navigation -->
+        <ul class="menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Qui sommes-nous</a></li>
+            <li><a href="#">Nos services</a></li>
+            <li><a href="#">Nous Contacter</a></li>
         </ul>
     </nav>
+
+    <!-- ************ Section principale : Ingénierie Informatique et Réseaux ************ -->
     <section class="ingenierie">
         <div class="contenu">
             <div class="d1">
-                <h1 class="tContenu">Ingénierie Informatique et Réseaux</h1>
+                <h1 class="tContenu">Bienvenue sur le site des filières informatiques</h1>
+                <p>Découvrez les spécialités proposées par notre école dans le domaine de l'informatique.</p>
                 <p class="para1">
-                    La filière Ingénierie Informatique et Réseaux de l’EMSI a pour objectif de former des ingénieurs polyvalents dans le domaine de l’informatique, 
-                    tout en alliant l’esprit d’analyse et de conception à la mise en œuvre et à la réalisation.
+                    La filière Ingénierie Informatique et Réseaux de l’EMSI a pour objectif de former des ingénieurs polyvalents dans le domaine de l’informatique.
                     Cette formation permet de déboucher sur trois options :
-                    <ul>
-                        <li>Développement Digital et Systèmes d’Information</li>
-                        <li>Cybersécurité et Infrastructure Réseaux</li>
-                        <li>Intelligence Artificielle et Sciences des Données</li>
-                    </ul>
                 </p>
-                <button class="btn1">Consulter</button>
+                <!-- Liste des options -->
+                <ul>
+                    <li><a href="#dev">Développement Digital et Systèmes d’Information</a></li>
+                    <li><a href="#cyber">Cybersécurité et Infrastructure Réseaux</a></li>
+                    <li><a href="#ia">Intelligence Artificielle et Sciences des Données</a></li>
+                </ul>
+                <!-- Bouton de consultation -->
+                <a href="#dev" class="btn1">Consulter</a>
             </div>
         </div>
     </section>
-    
 
-    <section class="dev">
+    <!-- ************ Section Option 1 : Développement Digital et Systèmes d’Information ************ -->
+    <section class="dev" id="dev">
         <div id="paracoding">
             <h1>Développement Digital et Systèmes d’Information</h1>
-            <p>Cette option forme des experts en développement d’applications web et mobiles, en gestion des bases de données et en intégration des systèmes d’information. Elle couvre les langages de programmation, l’architecture logicielle et les méthodologies agiles pour répondre aux besoins des entreprises modernes.</p>
+            <p>
+                Cette option forme des experts en développement d’applications web et mobiles, en gestion des bases de données et en intégration des systèmes d’information.
+            </p>
+            <h2>Programme d'études :</h2>
+            <ul>
+                <li>Langages de programmation (Java, Python, JavaScript)</li>
+                <li>Développement Web (HTML, CSS, PHP, React)</li>
+                <li>Gestion de bases de données (SQL, NoSQL)</li>
+                <li>Architecture Logicielle</li>
+                <li>Méthodologies agiles (Scrum, Kanban)</li>
+                <li>Gestion de projets</li>
+            </ul>
         </div>
-        <div><img src="coding.jpg" id="imgcoding"></div>
-    </section>
+      </section>
 
-    <section class="cyber">
+    <!-- ************ Section Option 2 : Cybersécurité et Infrastructure Réseaux ************ -->
+    <section class="cyber" id="cyber">
         <div id="paracyber">
             <h1>Cybersécurité et Infrastructure Réseaux</h1>
-            <p>Cette option prépare les étudiants aux défis de la sécurité informatique en leur enseignant la protection des systèmes, la cryptographie, les tests d’intrusion et l’administration des réseaux sécurisés. Les diplômés pourront travailler en tant qu’experts en cybersécurité et en gestion des infrastructures réseaux.</p>
+            <p>
+                Cette option prépare les étudiants aux défis de la sécurité informatique en leur enseignant la protection des systèmes et l’administration des réseaux sécurisés.
+            </p>
+            <h2>Programme d'études :</h2>
+            <ul>
+                <li>Sécurisation des systèmes informatiques</li>
+                <li>Cryptographie et sécurité des données</li>
+                <li>Tests d’intrusion (Pentesting)</li>
+                <li>Gestion des réseaux et des infrastructures</li>
+                <li>Protocoles réseau et administration</li>
+                <li>Analyse des vulnérabilités</li>
+            </ul>
         </div>
-        <div><img src="cybersecurity.jpg" id="imgcyber"></div>
+       
     </section>
 
-    <section class="ia">
+    <!-- ************ Section Option 3 : Intelligence Artificielle et Sciences des Données ************ -->
+    <section class="ia" id="ia">
         <div id="paraia">
             <h1>Intelligence Artificielle et Sciences des Données</h1>
-            <p>Cette option forme des spécialistes en intelligence artificielle et en data science, capables de manipuler de grandes quantités de données, de créer des modèles de machine learning et de développer des solutions innovantes basées sur l’intelligence artificielle.</p>
+            <p>
+                Cette option forme des spécialistes en intelligence artificielle et en data science, capables de créer des modèles de machine learning et de développer des solutions innovantes.
+            </p>
+            <h2>Programme d'études :</h2>
+            <ul>
+                <li>Algorithmes de machine learning (Régression, Classification)</li>
+                <li>Deep Learning et réseaux neuronaux</li>
+                <li>Traitement des données (Big Data, Data Mining)</li>
+                <li>Python pour l'analyse des données</li>
+                <li>Outils de Data Science (TensorFlow, Pandas, NumPy)</li>
+                <li>Modèles prédictifs et optimisation</li>
+            </ul>
         </div>
-        <div><img src="ai.jpg" id="imgia"></div>
-    </section>
     
-    <section>
-        <section class="contact">
-            <h2>Contactez-nous</h2>
-            <form>
-                <label for="nom">Nom</label>
-                <input type="text" id="nom" placeholder="Votre nom" required>
-        
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Votre email" required>
-        
-                <label for="message">Message</label>
-                <textarea id="message" placeholder="Votre message" required></textarea>
-        
-                <button type="submit" class="btn1">Envoyer le Message</button>
-            </form>
-        </section>
-        
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.4657557381383!2d-6.848331824635476!3d34.00625377317421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d6be9c30d2f%3A0x1228617674ab5382!2sEMSI%20Agdal%202!5e0!3m2!1sfr!2sma!4v1743352600482!5m2!1sfr!2sma" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
     </section>
-    <footer> <p>© Copyright 2025 MLY. Tous droits réservés.
-    </p></footer>
+
+    <!-- ************ Section Contact ************ -->
+    <section class="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="Votre nom" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Votre email" required>
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+            <button type="submit" class="btn1">Envoyer le Message</button>
+        </form>
+    </section>
+
+    <!-- ************ Pied de page ************ -->
+  
+    <footer>
+        <p>© Copyright 2025 MLY. Tous droits réservés.</p>
+        <ul>
+            <li><a href="https://www.youtube.com/@ecolemarocainedessciencesd4736">YouTube</a></li>
+            <li><a href="https://emsi.ma/">SiteWeb EMSI</a></li>
+            <li><a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn%3Ali%3Aorganization%3A15141630&keywords=ecole%20marocaine%20des%20sciences%20de%20l%27ing%C3%A9nieur&origin=RICH_QUERY_SUGGESTION&position=1&searchId=b821f898-5133-4f8f-a134-415fb5b263c7&sid=WnQ&spellCorrectionEnabled=false">LinkedIn</a></li>
+
+        </ul>
+    </footer>
+    
 </body>
 </html>
