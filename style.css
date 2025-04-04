@@ -15,7 +15,10 @@ nav {
     display: flex;
     align-items: center;
     padding: 0 20px;
+   
 }
+.classe1
+{ font-size: small;}
 
 nav img {
     width: 200px;
